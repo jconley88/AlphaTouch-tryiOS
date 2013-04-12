@@ -17,14 +17,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithRed:0.5 green:.7 blue:.4 alpha:.5];
     
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    button.frame = CGRectMake(120, 100, 80, 44);
-    [button setTitle:@"Tap me!" forState:UIControlStateNormal];
-    [button setTitle:@"Ouch!" forState:UIControlStateHighlighted];
-    [self.view addSubview:button];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *greenButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    greenButton.frame = CGRectMake(120, 200, 100, 44);
+    [greenButton setTitle:@"Make green!" forState:UIControlStateNormal];
+    [greenButton addTarget:self action:@selector(changeBackgroundColor:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:greenButton];
+    
+    UIButton *blueButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    blueButton.frame = CGRectMake(120, 100, 100, 44);
+    [blueButton setTitle:@"Make blue!" forState:UIControlStateNormal];
+    [blueButton addTarget:self action:@selector(changeBackgroundColor:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:blueButton];
+}
+
+- (void) changeBackgroundColor:(UIButton *) sender
+{
+    if ([sender.titleLabel.text isEqualToString:@"Make green!"]){
+        self.view.backgroundColor = [UIColor greenColor];
+    } else {
+        self.view.backgroundColor = [UIColor blueColor];
+    }
 }
 
 - (void) loadView

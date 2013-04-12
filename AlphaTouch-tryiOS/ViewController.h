@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (void) changeBackgroundColor:(UIButton *)sender;
+
 @end
