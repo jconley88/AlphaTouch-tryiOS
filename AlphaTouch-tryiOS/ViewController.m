@@ -1,18 +1,18 @@
 //
-//  tryiosViewController.m
 //  AlphaTouch-tryiOS
+//  ViewController.m
 //
 //  Created by Jonathan Conley on 4/11/13.
 //  Copyright (c) 2013 Jonathan Conley. All rights reserved.
 //
 
-#import "tryiosViewController.h"
+#import "ViewController.h"
 
-@interface tryiosViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation tryiosViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {

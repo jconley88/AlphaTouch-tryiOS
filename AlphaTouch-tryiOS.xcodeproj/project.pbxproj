@@ -12,13 +12,13 @@
 		4918B83F1717B1FE00A17651 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4918B83E1717B1FE00A17651 /* CoreGraphics.framework */; };
 		4918B8451717B1FE00A17651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4918B8431717B1FE00A17651 /* InfoPlist.strings */; };
 		4918B8471717B1FE00A17651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B8461717B1FE00A17651 /* main.m */; };
-		4918B84B1717B1FE00A17651 /* tryiosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B84A1717B1FE00A17651 /* tryiosAppDelegate.m */; };
+		4918B84B1717B1FE00A17651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B84A1717B1FE00A17651 /* AppDelegate.m */; };
 		4918B84D1717B1FE00A17651 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4918B84C1717B1FE00A17651 /* Default.png */; };
 		4918B84F1717B1FE00A17651 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4918B84E1717B1FE00A17651 /* Default@2x.png */; };
 		4918B8511717B1FE00A17651 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4918B8501717B1FE00A17651 /* Default-568h@2x.png */; };
 		4918B8541717B1FE00A17651 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4918B8521717B1FE00A17651 /* MainStoryboard_iPhone.storyboard */; };
 		4918B8571717B1FE00A17651 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4918B8551717B1FE00A17651 /* MainStoryboard_iPad.storyboard */; };
-		4918B85A1717B1FE00A17651 /* tryiosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B8591717B1FE00A17651 /* tryiosViewController.m */; };
+		4918B85A1717B1FE00A17651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918B8591717B1FE00A17651 /* ViewController.m */; };
 		4918B8621717B1FF00A17651 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4918B8611717B1FF00A17651 /* SenTestingKit.framework */; };
 		4918B8631717B1FF00A17651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4918B83A1717B1FE00A17651 /* UIKit.framework */; };
 		4918B8641717B1FF00A17651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4918B83C1717B1FE00A17651 /* Foundation.framework */; };
@@ -45,15 +45,15 @@
 		4918B8441717B1FE00A17651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4918B8461717B1FE00A17651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4918B8481717B1FE00A17651 /* AlphaTouch-tryiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlphaTouch-tryiOS-Prefix.pch"; sourceTree = "<group>"; };
-		4918B8491717B1FE00A17651 /* tryiosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tryiosAppDelegate.h; sourceTree = "<group>"; };
-		4918B84A1717B1FE00A17651 /* tryiosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tryiosAppDelegate.m; sourceTree = "<group>"; };
+		4918B8491717B1FE00A17651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4918B84A1717B1FE00A17651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4918B84C1717B1FE00A17651 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4918B84E1717B1FE00A17651 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4918B8501717B1FE00A17651 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4918B8531717B1FE00A17651 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4918B8561717B1FE00A17651 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4918B8581717B1FE00A17651 /* tryiosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tryiosViewController.h; sourceTree = "<group>"; };
-		4918B8591717B1FE00A17651 /* tryiosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tryiosViewController.m; sourceTree = "<group>"; };
+		4918B8581717B1FE00A17651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4918B8591717B1FE00A17651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4918B8601717B1FF00A17651 /* AlphaTouch-tryiOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlphaTouch-tryiOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4918B8611717B1FF00A17651 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4918B8691717B1FF00A17651 /* AlphaTouch-tryiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlphaTouch-tryiOSTests-Info.plist"; sourceTree = "<group>"; };
@@ -119,12 +119,12 @@
 		4918B8401717B1FE00A17651 /* AlphaTouch-tryiOS */ = {
 			isa = PBXGroup;
 			children = (
-				4918B8491717B1FE00A17651 /* tryiosAppDelegate.h */,
-				4918B84A1717B1FE00A17651 /* tryiosAppDelegate.m */,
+				4918B8491717B1FE00A17651 /* AppDelegate.h */,
+				4918B84A1717B1FE00A17651 /* AppDelegate.m */,
 				4918B8521717B1FE00A17651 /* MainStoryboard_iPhone.storyboard */,
 				4918B8551717B1FE00A17651 /* MainStoryboard_iPad.storyboard */,
-				4918B8581717B1FE00A17651 /* tryiosViewController.h */,
-				4918B8591717B1FE00A17651 /* tryiosViewController.m */,
+				4918B8581717B1FE00A17651 /* ViewController.h */,
+				4918B8591717B1FE00A17651 /* ViewController.m */,
 				4918B8411717B1FE00A17651 /* Supporting Files */,
 			);
 			path = "AlphaTouch-tryiOS";
@@ -276,8 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4918B8471717B1FE00A17651 /* main.m in Sources */,
-				4918B84B1717B1FE00A17651 /* tryiosAppDelegate.m in Sources */,
-				4918B85A1717B1FE00A17651 /* tryiosViewController.m in Sources */,
+				4918B84B1717B1FE00A17651 /* AppDelegate.m in Sources */,
+				4918B85A1717B1FE00A17651 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

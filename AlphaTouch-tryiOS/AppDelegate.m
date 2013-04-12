@@ -1,14 +1,13 @@
 //
-//  tryiosAppDelegate.m
 //  AlphaTouch-tryiOS
+//  AppDelegate.m
 //
 //  Created by Jonathan Conley on 4/11/13.
 //  Copyright (c) 2013 Jonathan Conley. All rights reserved.
 //
 
-#import "tryiosAppDelegate.h"
-
-@implementation tryiosAppDelegate
+#import "AppDelegate.h"
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
