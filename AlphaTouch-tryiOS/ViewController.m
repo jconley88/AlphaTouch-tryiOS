@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithRed:0.5 green:.7 blue:.4 alpha:.5];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    button.frame = CGRectMake(120, 100, 80, 44);
+    [button setTitle:@"Tap me!" forState:UIControlStateNormal];
+    [button setTitle:@"Ouch!" forState:UIControlStateHighlighted];
+    [self.view addSubview:button];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
