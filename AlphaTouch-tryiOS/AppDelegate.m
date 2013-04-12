@@ -7,19 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+    
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     CGRect viewRect = [[UIScreen mainScreen] bounds];
     self.window = [[UIWindow alloc] initWithFrame:viewRect];
-    UIViewController *colorTouchVC = [[UIViewController alloc] init];
+    self.viewController = [[ViewController alloc] init];
     
-    UIView *colorView = [[UIView alloc] initWithFrame:viewRect];
-    colorView.backgroundColor = [UIColor colorWithRed:0.5 green:.7 blue:.4 alpha:.5];
-    colorTouchVC.view = colorView;
-    
-    self.window.rootViewController = colorTouchVC;
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     NSLog(@"Screen is %f tall and %f wide", viewRect.size.height, viewRect.size.width);
     return YES;
